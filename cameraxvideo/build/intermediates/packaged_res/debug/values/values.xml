@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="bkDarkPurple">#FF440044</color>
+    <color name="bkLightPurple">#FF880088</color>
+    <color name="bkPurple">#FFFF00FF</color>
+    <color name="black_overlay">#66000000</color>
+    <color name="icActive">#FFFFFFFF</color>
+    <color name="icFocused">#DDFFFFFF</color>
+    <color name="icPressed">#AAFFFFFF</color>
+    <color name="ic_white">#FFFFFFFF</color>
+    <color name="light_blue_600">#FF039BE5</color>
+    <color name="light_blue_900">#FF01579B</color>
+    <color name="light_blue_A200">#FF40C4FF</color>
+    <color name="light_blue_A400">#FF00B0FF</color>
+    <color name="transparent">#00000000</color>
+    <color name="txBlack">#FF000000</color>
+    <color name="txBlue">#FF0000FF</color>
+    <color name="txGray">#80FFFFFF</color>
+    <color name="txWhite">#FFFFFFFF</color>
+    <item name="preview_view_window" type="id"/>
+    <string name="Finalize">Finalize</string>
+    <string name="Idle">Idle</string>
+    <string name="Resume">Resume</string>
+    <string name="Start">Start</string>
+    <string name="app_name">CameraXVideo</string>
+    <string name="audio">Audio</string>
+    <string name="back_button_alt">Back</string>
+    <string name="camera">Camera</string>
+    <string name="capture">Capture</string>
+    <string name="dummy_button">Dummy Button</string>
+    <string name="dummy_content">DUMMY\nCONTENT</string>
+    <string name="pause">Pause</string>
+    <string name="stop">Stop</string>
+    <string name="video_viewer_tips">Tips for the page:\n\t- tap anywhere to replay\n\t- tap system back button to go back</string>
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="android:immersive">true</item>
+        <item name="android:windowFullscreen">true</item>
+        <item name="android:windowTranslucentStatus">true</item>
+        <item name="android:windowTranslucentNavigation">true</item>
+    </style>
+    <style name="ThemeOverlay.CameraXVideo.FullscreenContainer" parent="">
+        <item name="fullscreenBackgroundColor">@color/light_blue_600</item>
+        <item name="fullscreenTextColor">@color/light_blue_A200</item>
+    </style>
+    <declare-styleable name="FullscreenAttrs">
+        <attr format="color" name="fullscreenBackgroundColor"/>
+        <attr format="color" name="fullscreenTextColor"/>
+    </declare-styleable>
+</resources>
